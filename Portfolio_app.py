@@ -26,7 +26,6 @@ if pages == "Home":
     - **Data Cleaning App**: Automated preprocessing, missing value imputation, and contamination index calculation.
     - **Interactive Visualizations**: Enable stakeholders to filter and explore actionable insights.
     """)
-    st.image("https://via.placeholder.com/800x400", caption="Dashboard Snapshot (Placeholder)")
 
 elif pages == "Data Cleaning App":
     st.header("Data Cleaning App")
