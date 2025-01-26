@@ -32,7 +32,7 @@ elif pages == "Data Cleaning App":
     st.markdown("Upload raw soil data, preprocess it, and download the cleaned dataset with contamination indexes.")
     st.code('streamlit run clean_with_encode_app.py', language='bash')
     st.markdown("""
-    Run the above app locally or explore it [here](https://your-streamlit-app-link.com).
+    Run the above app locally or explore it [here](https://ecosoilinsightsdatacleaning.streamlit.app/).
     """)
 
 elif pages == "Dashboard":
@@ -40,13 +40,13 @@ elif pages == "Dashboard":
     st.markdown("Explore Auckland's soil quality trends and metrics with interactive filtering and visualizations.")
     st.code('streamlit run Soil_quality_Dashboard.py', language='bash')
     st.markdown("""
-    Run the above dashboard locally or explore it [here](https://your-dashboard-link.com).
+    Run the above dashboard locally or explore it [here](https://713-capstone-dashboard.streamlit.app/).
     """)
 
 elif pages == "GitHub Repository":
     st.header("GitHub Repository")
     st.markdown("""
     View the complete project source code, including data cleaning and dashboard scripts:
-    - [GitHub Repository](https://github.com/your-repo-link)
+    - [GitHub Repository](https://github.com/YiliaTao0122/713_Portfolio)
     """)
 
