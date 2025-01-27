@@ -34,13 +34,13 @@ elif pages == "Developer's Profile":
     """)
     col1, col2 = st.columns(2)
     with col1:
-        st.image("yilia_tao.jpg", caption="Yilia Tao", width=150)
+        st.image("https://raw.githubusercontent.com/YiliaTao0122/713_Portfolio/main/yilia_tao.jpg", caption="Yilia Tao", width=150)
         st.markdown("""
         **Yilia Tao**  
         Data Analytics Student, NZSE GDDA7124 Cohort
         """)
     with col2:
-        st.image("surangi_gunaratna.jpg", caption="Surangi Gunaratna", width=150)
+        st.image("https://raw.githubusercontent.com/YiliaTao0122/713_Portfolio/main/surangi_gunaratna.jpg", caption="Surangi Gunaratna", width=150)
         st.markdown("""
         **Surangi Gunaratna**  
         Data Analytics Student, NZSE GDDA7124 Cohort
