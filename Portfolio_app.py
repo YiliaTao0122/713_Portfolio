@@ -48,18 +48,23 @@ elif pages == "Developer's Profile":
  
 elif pages == "Data Cleaning App":
     st.header("Data Cleaning App")
-    st.markdown("Upload raw soil data, preprocess it, and download the cleaned dataset with contamination indexes.")
+    st.markdown("""
+    Upload raw soil data, preprocess it, and download the cleaned dataset with contamination indexes.
+    """)
     st.code('streamlit run clean_with_encode_app.py', language='bash')
     st.markdown("""
     Run the above app locally or explore it [here](https://ecosoilinsightsdatacleaning.streamlit.app/).
     """)
-    # Password-Protected Section
-    st.subheader("User Credentials")
-    password = st.text_input("Enter password to access the app:", type="password")
-    if password == "ESIAKL":
-        st.success("Access granted! You can use the app.")
-    else:
-        st.error("Access denied! Please enter the correct password.")
+    
+    # Highlighted User Credential
+    st.subheader("User Credential")
+    st.markdown("""
+    To access the Data Cleaning App, use the following credential:
+    """)
+    st.markdown(
+        "<div style='background-color:#f0f0f0; padding:10px; border-radius:5px; font-weight:bold; text-align:center;'>Password: <span style='color:blue;'>ESIAKL</span></div>", 
+        unsafe_allow_html=True
+    )
  
 elif pages == "Dashboard":
     st.header("Interactive Dashboard")
