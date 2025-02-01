@@ -59,7 +59,7 @@ elif pages == "Data Cleaning App":
     # Highlighted User Credential
     st.subheader("User Credential")
     st.markdown("""
-    To access the Data Cleaning App, use the following credential: (raw dataset xlsx file cand be downloaded from GitHub repository
+    To access the Data Cleaning App, use the following credential: (Raw dataset Excel file can be downloaded from GitHub repository for upload.
     """)
     st.markdown(
         "<div style='background-color:#f0f0f0; padding:10px; border-radius:5px; font-weight:bold; text-align:center;'>Password: <span style='color:blue;'>ESIAKL</span></div>", 
